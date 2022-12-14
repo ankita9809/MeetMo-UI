@@ -15,7 +15,7 @@ export default function AddDevice() {
                 </div>
 
 
-                <h5 className="dark:text-white  text-center text-sm font-light py-10">Please select a devices to add</h5>
+                <h5 className="dark:text-white  text-center text-sm font-light py-10">Please select a device to add</h5>
                 <div className="px-10">
                     <img src={RocketLaunch} alt="RocketLaunch" />
                 </div>
