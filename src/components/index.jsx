@@ -8,7 +8,7 @@ export default function AddDevice() {
                 <h2 className="dark:text-white font-sans text-center text-xl pt-10">Add device</h2>
                 {/* <div className="text-center pt-5"> make a circle</div> */}
                 <div className="text-center pt-5">
-                    <button class="rounded-full h-24 w-24 bg-transparent 
+                    <button className ="rounded-full h-24 w-24 bg-transparent 
                        text-white border-dashed border-2">
                         +
                     </button>
@@ -39,8 +39,8 @@ export default function AddDevice() {
                         </div>
 
                         <div className=" flex flex-row justify-center space-x-5 ml-10 mr-10">
-                            <button className="rounded-lg w-full my-5 py-2 bg-sky-600">Add device</button>
-                            <button className="rounded-lg w-full my-5 py-2 bg-sky-600">Cancel</button>
+                            <button className="w-full my-5 py-2 bg-sky-600 rounded-sm">Add device</button>
+                            <button className="rounded-sm w-full my-5 py-2 border-2 border-indigo-50 bg-transparent">Cancel</button>
 
                         </div>
 
